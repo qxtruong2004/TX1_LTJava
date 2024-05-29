@@ -7,7 +7,7 @@ public class TestComputer {
     public static void main(String[] args) {
         Scanner sn = new Scanner(System.in);
         int n = 5;
-        ComputerManagerIMPL computerManagerIMPL = new ComputerManagerIMPL(); //khởi tạo danh sách máy tính gồm 5 phần tử
+        ComputerManagerIMPL computerManagerIMPL = new ComputerManagerIMPL();
         List<Computer> computerList = new ArrayList<>(); //dùng để lưu trữ máy  tính khi dùng hàm search
         computerManagerIMPL.generateList(n); //sinh ngẫu nhiên ds máy tính
         computerManagerIMPL.printList(); //in thông tin ds máy tính
